@@ -1,0 +1,28 @@
+{
+  "name": "aws-resource-control",
+  "version": "1.0.0",
+  "description": "Node code to start and stop resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.101.114.229/ksivaganesh99/AWS-resource-control.git/"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "Function",
+    "Node"
+  ],
+  "author": "Siva Karri",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.59.0",
+    "events": "^1.1.1",
+    "fs": "0.0.1-security",
+    "qs": "^6.5.0",
+    "request": "^2.81.0"
+  }
+}
